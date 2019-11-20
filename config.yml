@@ -1,0 +1,23 @@
+---
+# Test framework: "xcuitest" or "espresso"
+testFramework: xcuitest
+ 
+# Path to the app's .ipa or .app.
+# app: ./SimpleLocationApp_1.0.ipa
+app: "/Users/enriquegonzalez/Desktop/SimpleLocationApp\ 2019-11-19\ 17-46-45/SimpleLocationApp.ipa"
+ 
+# Path to the test runner app's .ipa or .app.
+# test: ./SimpleLocationAppUITests-Runner_1.0.ipa
+test: /Users/enriquegonzalez/Library/Developer/Xcode/DerivedData/SimpleLocationApp-gjgabqbqntjtrbflzylmwqixggeu/Build/Products/Debug-iphoneos/SimpleLocationAppUITests-Runner.app
+ 
+# Path where XML test reports will be saved.
+xmlFolder: ./
+ 
+# Define a list of devices on which the tests should be executed.
+devices:
+
+- datacenter: US
+  platformVersion: 13
+
+- datacenter: EU
+  platformVersion: 13
