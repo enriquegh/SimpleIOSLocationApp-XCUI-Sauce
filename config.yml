@@ -17,13 +17,13 @@ xmlFolder: ./results/
 devices:
 
 - datacenter: US
-  platformVersion: 12
+  platformVersion: 13
 
 - datacenter: US
-  platformVersion: 12
+  platformVersion: 14
 
 - datacenter: EU
-  platformVersion: 12
+  platformVersion: 13
 
 - datacenter: EU
-  platformVersion: 12
+  platformVersion: 14
